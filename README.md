@@ -1,25 +1,32 @@
 # Sonaric Node Setup Guide
 
-This guide outlines the steps to set up and run a Sonaric node.
+A step-by-step guide to installing and managing a Sonaric node.
 
 ## Table of Contents
-1. [Dependencies](#dependencies)
-2. [Installing the Sonaric Node](#installing-the-sonaric-node)
-3. [Checking Node Status](#checking-node-status)
+1. [Minimum System Requirements](#minimum-system-requirements)
+2. [Installing Dependencies](#installing-dependencies)
+3. [Installing the Node](#installing-the-node)
+4. [Checking Node Status or Version](#checking-node-status-or-version)
+5. [Updating the Node](#updating-the-node)
+6. [Additional Notes](#additional-notes)
 
 ---
 
-## 1. Dependencies
+## 1. Minimum System Requirements
 
-Before installing the Sonaric node, ensure your system has the required dependencies.
+Ensure your system meets the following minimum requirements:
+
+| **Resource** | **Requirement** |
+|--------------|------------------|
+| RAM          | 2 GB            |
+| CPU          | 2 Cores         |
+
+---
+
+## 2. Installing Dependencies
+
+Run the following commands to update your packages and install the necessary dependencies:
 
 ### Update Packages
-Run the following command to update existing packages:
 ```bash
 sudo apt update && sudo apt upgrade -y
-Install Required Tools
-Install the necessary dependencies:
-
-bash
-Copy code
-sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
