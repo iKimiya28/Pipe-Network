@@ -30,3 +30,4 @@ Run the following commands to update your packages and install the necessary dep
 ### Update Packages
 ```bash
 sudo apt update && sudo apt upgrade -y
+sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
