@@ -77,5 +77,5 @@ sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
 
 ## 6. Additional Notes
 
-- **Discord Role**: After successfully setting up your node, ensure you claim the **Operator** role on Discord.
-- For troubleshooting or additional setup guidance, refer to the official [Sonaric Documentation](https://get.sonaric.xyz).
+- **Discord Role**: After successfully setting up your node, ensure you claim the **Operator** role on [Discord](https://discord.gg/eg9PNeDAuE).
+- For troubleshooting or additional setup guidance, refer to the official Guide at https://docs.sonaric.xyz/installation/vps.html#installing-on-vps 
