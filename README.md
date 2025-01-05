@@ -32,4 +32,11 @@ Run the following commands to update your packages and install the necessary dep
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
 
-## 2. Installing Dependencies
+## 3. Installing the Node
+Install the Sonaric node using the official installation script:
+
+bash
+Code kopieren
+sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
+
+Note: After installation, your node will automatically start running in the background.
