@@ -1,6 +1,6 @@
 # Sonaric Node Setup Guide
 
-This guide outlines the steps to set up and run a Sonaric node on your system.
+This guide outlines the steps to set up and run a Sonaric node.
 
 ## Table of Contents
 1. [Dependencies](#dependencies)
