@@ -31,12 +31,51 @@ Run the following commands to update your packages and install the necessary dep
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
+```
+
+---
 
 ## 3. Installing the Node
+
 Install the Sonaric node using the official installation script:
-
-bash
-Code kopieren
+```bash
 sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
+```
 
-Note: After installation, your node will automatically start running in the background.
+**Note**: After installation, your node will automatically start running in the background.
+
+---
+
+## 4. Checking Node Status or Version
+
+To verify that your node is running or to check the installed version, use the following command:
+```bash
+sonaric node-info
+```
+
+---
+
+## 5. Updating the Node
+
+### Step 1: Update System Packages
+```bash
+apt-get update
+```
+
+### Step 2: Install the Latest Node Packages
+```bash
+apt-get install sonaricd sonaric
+```
+
+### Step 3: Reinstall the Node (if necessary)
+If needed, you can reinstall the node using the official installation script:
+```bash
+sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
+```
+
+---
+
+## 6. Additional Notes
+
+- **Discord Role**: After successfully setting up your node, ensure you claim the **Operator** role on Discord.
+- For troubleshooting or additional setup guidance, refer to the official [Sonaric Documentation](https://get.sonaric.xyz).
